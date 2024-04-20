@@ -42,14 +42,14 @@ System(
           if (isUrl(matchUrl)) {
             return await message.send(
               await GetYtv(matchUrl),
-              { caption: await tiny('*made with 🤍*'), quoted: message.data },
+              { caption: await tiny('*made by 》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺*'), quoted: message.data },
               'video'
             );
           } else {
             const data = await Ytsearch(match);
             return await message.send(
               await GetYtv(data.url),
-              { caption: tiny('*made with 🤍*'), quoted: message.data },
+              { caption: tiny('*made by 》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺*'), quoted: message.data },
               'video'
             );
           }
@@ -73,14 +73,14 @@ System(
           if (isUrl(matchUrl)) {
             return await message.send(
               await GetYtv(matchUrl),
-              { caption: await tiny('*made with 🤍*'), quoted: message.data },
+              { caption: await tiny('*made by 》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺*'), quoted: message.data },
               'video'
             );
           } else {
             const data = await Ytsearch(match);
             return await message.send(
               await GetYtv(data.url),
-              { caption: tiny('*made with 🤍*'), quoted: message.data },
+              { caption: tiny('*made by 》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺*'), quoted: message.data },
               'video'
             );
           }
@@ -162,7 +162,7 @@ System(
               audio: aud,
               mimetype: 'audio/mpeg',
             });
-            await download.edit(`_*Successfully downloaded ${link.title}*_`);
+            await download.edit(`_*Successfully downloaded by 》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺ ${link.title}*_`);
           }
         }
     }
