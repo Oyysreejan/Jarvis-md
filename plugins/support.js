@@ -6,8 +6,8 @@ System({
     desc: "jarvis-md support",
     type: "support"
 }, async (message) => {
-    const name = 'ɪʀᴏɴ ᴍᴀɴ 🎓', title = "ᴊᴀʀᴠɪꜱ ꜱᴜᴩᴩᴏʀᴛ 🪄", number = '4915252819677', body = "ɪʀᴏɴ ᴍᴀɴ";
-    const image = "https://i.imgur.com/DYuO4eT.jpeg", sourceUrl = 'https://github.com/Loki-Xer/Jarvis-md';
+    const name = '》✪⏤͟͞★⃝ꪶ‎𝐒𝐫𝖊𝖊⊭𝖏ꫝ𝖓-𖥘✪͜͡➺', title = "❤️‍🩹 ❯⃞✰ꪶ͢𝐒𝐫𝐞𝐞𝐣𝐚𝐧✰★⃞❯🍃", number = '917439382677', body = "🎀𝐇ᴇʏ  𝐁ᴀʙᴇ 𝐂ᴏᴍᴇ 𝐓ᴏ 𝐌ʏ 𝐋ɪғᴇ🌸🍃";
+    const image = "https://i.imgur.com/9A5dxAn.jpeg", sourceUrl = 'https://wa.me/917439382677?text=_𝑯𝒆𝒚+★★𝚯𝐘𝐘_|_𝐒𝚪𝚵𝚵𝐉𝚫𝚴★★+🎀+🎈_';
     const logo = await getBuffer(image);
     const vcard = `BEGIN:VCARD\nVERSION:3.0\nFN:${name}\nORG: powered by Jarvis-md;\nTEL;type=CELL;type=VOICE;waid=${number}:${number}\nEND:VCARD`;
     const adon = { title, body, thumbnail: logo, mediaType: 1, mediaUrl: sourceUrl, sourceUrl, showAdAttribution: true, renderLargerThumbnail: false };
